@@ -17,12 +17,12 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css" integrity="sha512-pVCM5+SN2+qwj36KonHToF2p1oIvoU3bsqxphdOIWMYmgr4ZqD3t5DjKvvetKhXGc/ZG5REYTT6ltKfExEei/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css" integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -48,13 +48,13 @@
       <div class="profile">
         <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Karzan Hashem</a></h1>
-        <div class="social-links mt-3 text-center">
+        <!-- <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
           <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
           <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
+        </div> -->
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
@@ -62,8 +62,8 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+          <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bxl-sketch"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -71,12 +71,12 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Karzan Hashem</h1>
-      <p>I'm a<span class="typed" data-typed-items="Senior Frontend Engineer, Software Engineer"></span></p>
+      <p>I'm a <span class="typed" data-typed-items="Senior Frontend Engineer, Software Engineer"></span></p>
     </div>
-  </section> -->
+  </section>
   <!-- End Hero -->
 
   <main id="main">
@@ -94,7 +94,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile.jpg" class="img-fluid" alt="" width="300">
+            <img src="assets/img/profile-img.png" class="img-fluid" alt="" width="300">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Frontend &amp; Full-stack Developer.</h3>
@@ -129,56 +129,8 @@
     </section> 
     <!-- End About Section -->
 
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong></p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section -->
-
     <!-- ======= Skills Section ======= -->
-    <!-- <section id="skills" class="skills section-bg">
+    <section id="skills" class="skills section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -227,7 +179,7 @@
             <div class="progress">
               <span class="skill">Vue/Nuxt <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -243,23 +195,23 @@
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">Node <i class="val">90%</i></span>
+              <span class="skill">Node <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">90%</i></span>
+              <span class="skill">Laravel / CI <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Python <i class="val">90%</i></span>
+              <span class="skill">Django<i class="val">100%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
@@ -292,7 +244,7 @@
         </div>
 
       </div>
-    </section> -->
+    </section>
     <!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
@@ -325,7 +277,6 @@
               <h4>Bachelor's degree of Computer Science</h4>
               <h5>2010 - 2014</h5>
               <p><em>Technology of University, Dublin, Ireland</em></p>
-              <!-- <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p> -->
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -388,119 +339,105 @@
     <!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="projects" class="portfolio section-bg">
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+          <h2>Projects</h2>
         </div>
-
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
+              <!-- <li data-filter=".filter-card">Card</li> -->
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
         </div>
-
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/youtube.jpg" class="port-project" alt="">
               <div class="portfolio-links">
                 <a href="https://github.com/skydragon0324/youtube-app" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://real-youtube-clone-app-2022.netlify.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://real-youtube-clone-app-2022.netlify.app/" title="youtube" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ux.jpg" class="port-project" alt="">
               <div class="portfolio-links">
                 <a href="https://github.com/skydragon0324/restaurant-app" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://figma-react-restaurant-2022.netlify.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://figma-react-restaurant-2022.netlify.app/" title="restaurant" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>          
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/spotify.png" class="port-project" alt="">
               <div class="portfolio-links">
                 <a href="https://github.com/skydragon0324/spotify" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://spotify-clone-wave.netlify.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://spotify-clone-wave.netlify.app/" title="spotify" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/google.jpg" class="port-project" alt="">
               <div class="portfolio-links">
                 <a href="https://github.com/skydragon0324/play-movies" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://google-play-movies-clone.netlify.app/" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://google-play-movies-clone.netlify.app/" title="play-movies"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/nuro.png" class="port-project" alt="">
               <div class="portfolio-links">
-                <a href="https://github.com/skydragon0324/private-nuro" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href=" https://www.nuro.ai/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/skydragon0324/private-nuro" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href=" https://www.nuro.ai/" title="nuro" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/nialaya.png" class="port-project" alt="">
               <div class="portfolio-links">
-                <a href="https://github.com/skydragon0324/nialaya-app" target="_blank"><i class="bx bx-plus"></i></a>
-                <a href="https://www.nialaya.com/" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/skydragon0324/nialaya-app" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.nialaya.com/" title="nialaya"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/workout.jpg" class="port-project" alt="">
               <div class="portfolio-links">
                 <a href="https://github.com/skydragon0324/workout-app" target="_blank"><i class="bx bxl-github"></i></a>
-                <a href="https://react-workout-app-2022.netlify.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://react-workout-app-2022.netlify.app/" title="workout" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/30mins.jpg" class="port-project" alt="">
+              <img src="assets/img/portfolio/richai.png" class="port-project" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/30mins.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/skydragon0324/richai-app" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.richai.app/" title="richai" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/onerare.png" class="port-project" alt="">
               <div class="portfolio-links">
-                <a href="https://github.com/skydragon0324/onerare" target="_blank"><i class="bx bx-plus"></i></a>
-                <a href="https://www.onerare.io/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/skydragon0324/onerare" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.onerare.io/" title="onerare" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -510,128 +447,53 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>It takes great pains to benefit. His needs result from something that actually drives him away. Let them be what they want. Anyone whom anyone desires. And no one who hinders receives the others. Because he should flee in this office of convenience, which is here</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <h4 class="title"><a href="">Frontend Development</a></h4>
+            <p class="description">React.js / Next.js / Vue.js / Nuxt.js / Angular / TailwindCSS / TyepScript / JavaScript/ Bootstrap</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <h4 class="title"><a href="">Background Development</a></h4>
+            <p class="description"><b>PHP</b>(Laravel, CI) / <b>JavaScript</b> (Node, Express) / <b>Python</b> (Django) / <b>Database</b> (SQL, MongoDB, Oracle, PostgreSQL, NoSQL)</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <h4 class="title"><a href="">Web3 App Development</a></h4>
+            <p class="description">
+              Solity / Smart Contract / Web3.js / NFT Marketplace / NFT
+              Minting / Token
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h4 class="title"><a href="">Hybrid Mobile App Development</a></h4>
+            <p class="description">
+              React Native / Flutter ,
+              Android / iOS
+            </p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <h4 class="title"><a href="">CRM / CMS Websites</a></h4>
+            <p class="description">WordPress / eCommmerce / Shopify / OnePage</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <h4 class="title"><a href="">Flexible Work</a></h4>
+            <p class="description">
+              Can work any timezone 
+              <b class="animate zoom">Fully Remote</b>
+            </p>
           </div>
         </div>
 
       </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -649,45 +511,55 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>109 Faussagh Rd, Cabra East, Dublin 7, D07 N7X2, Ireland</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>karzanhashem1211@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+353892509753</p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe
+                width="100%"
+                height="50%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.8274703686523!2d-6.302625084622533!3d53.36486987998036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670dd0e321afeb%3A0x7f4118ab425baf18!2s109%20Faussagh%20Rd%2C%20Cabra%20East%2C%20Dublin%207%2C%20D07%20N7X2%2C%20Ireland!5e0!3m2!1sen!2sus!4v1642744272432!5m2!1sen!2sus"
+                allowfullscreen=""
+                loading="lazy">
+              </iframe>
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                  <input type="text" name="name" class="form-control rounded" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="email" class="form-control rounded" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
+                <input type="text" class="form-control rounded" name="subject" id="subject" required>
               </div>
               <div class="form-group">
                 <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control rounded" name="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -710,14 +582,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Karzan <strong><span>Portfolio</span></strong>
       </div>
     </div>
   </footer><!-- End  Footer -->
@@ -725,15 +590,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js" integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js" integrity="sha512-S/H9RQ6govCzeA7F9D0m8NGfsGf0/HjJEiLEfWGaMCjFzavo+DkRbYtZLSO+X6cZsIKQ6JvV/7Y9YMaYnSGnAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script src="assets/vendor/typed.js/typed.umd.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js" integrity="sha512-zKaK6G2LZC5YZTX0vKmD7xOwd1zrEEMal4zlTf5Ved/A1RrnW+qt8pWDfo7oz+xeChECS/P9dv6EDwwPwelFfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js" integrity="sha512-Q4MHJkk3u8P63v1aX0I7jvo5AoMFi53HbxUBhURp8x7xrqD+nsHZrbBEQVObpqE+MAAVB/Ye9ZlKkM44a1q9WA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
